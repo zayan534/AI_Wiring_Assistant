@@ -132,7 +132,7 @@ def main() -> None:
         name=args.name,
         project=str(output_dir),
         device=args.device if args.device else None,
-        exist_ok=True,
+        exist_ok=False,
     )
 
     # ── Save best weights to models/ ──────────────────────────────────────────
