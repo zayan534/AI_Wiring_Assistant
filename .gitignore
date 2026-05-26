@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+runs/
+*.pt
+datasets/
+outputs/
+.vscode/
+.DS_Store
+Thumbs.db

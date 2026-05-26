@@ -1,0 +1,19 @@
+# ──────────────────────────────────────────────────────────────
+# AI-Powered Breadboard Circuit Verification System
+# Stage 1: Component Detection
+# ──────────────────────────────────────────────────────────────
+
+# Core ML / CV
+ultralytics>=8.0.0        # YOLO model training & inference
+torch>=2.0.0              # PyTorch backend (CPU or CUDA)
+torchvision>=0.15.0       # Image transforms used by YOLO internals
+opencv-python>=4.8.0      # Image I/O and annotation
+numpy>=1.24.0             # Numerical ops
+
+# Data / config
+PyYAML>=6.0               # Parsing data.yaml dataset configs
+
+# Optional but recommended
+Pillow>=10.0.0            # Used internally by ultralytics
+matplotlib>=3.7.0         # Training metric plots
+tqdm>=4.65.0              # Progress bars during training
