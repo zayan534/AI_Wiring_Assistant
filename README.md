@@ -1,3 +1,4 @@
+
 # AI-Powered Breadboard Circuit Verification System
 
 > **Current stage: Stage 1 — Component Detection only**
@@ -207,3 +208,5 @@ If `--save-txt` is passed, a matching `.txt` file is saved next to each output i
 - **Model size:** `yolov8n` (nano) is used by default — fast to train and run, good for prototyping. Upgrade to `yolov8s` / `yolov8m` for better accuracy once the pipeline is validated.
 - **Epochs:** 50 epochs is a reasonable starting point. Increase to 100–200 for a production-quality model.
 - **Dataset size:** YOLO can start learning from ~200–500 images per class; more is always better.
+
+
